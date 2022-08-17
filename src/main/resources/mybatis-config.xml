@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<settings>
+		<setting name="jdbcTypeForNull" value="VARCHAR"/>
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+	</settings>
+	
+	<typeAliases>
+		<typeAlias alias="param" type="java.util.Map"/>
+		<typeAlias alias="result" type="java.util.Map"/>
+		<typeAlias alias="member" type="com.scadaict.project.member.domain.Member"/>
+	</typeAliases>
+</configuration>
